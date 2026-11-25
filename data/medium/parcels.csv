@@ -1,0 +1,26 @@
+id,name,priority,deadline,weight,value
+P001,Parcel 1,1,4,7,139
+P002,Parcel 2,4,9,10,129
+P003,Parcel 3,4,20,5,72
+P004,Parcel 4,1,22,3,93
+P005,Parcel 5,1,6,8,66
+P006,Parcel 6,1,22,2,145
+P007,Parcel 7,3,8,7,23
+P008,Parcel 8,4,21,9,61
+P009,Parcel 9,2,12,9,21
+P010,Parcel 10,4,25,4,119
+P011,Parcel 11,1,29,6,60
+P012,Parcel 12,4,18,1,133
+P013,Parcel 13,3,8,1,54
+P014,Parcel 14,5,1,3,81
+P015,Parcel 15,4,3,7,26
+P016,Parcel 16,3,28,10,147
+P017,Parcel 17,2,24,4,25
+P018,Parcel 18,4,10,9,50
+P019,Parcel 19,4,3,5,132
+P020,Parcel 20,4,25,4,21
+P021,Parcel 21,2,17,8,144
+P022,Parcel 22,2,11,2,143
+P023,Parcel 23,3,10,10,148
+P024,Parcel 24,4,22,9,112
+P025,Parcel 25,1,21,2,89

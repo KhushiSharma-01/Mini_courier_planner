@@ -1,0 +1,37 @@
+MINI-COURIER PLANNER | Dataset: large | Parcels: 60 | Locations: 61
+
+PHASE 1 - MERGE SORT (priority high to low; deadline early first)
+P043 Parcel 43: priority=5, deadline=5
+P017 Parcel 17: priority=5, deadline=15
+P004 Parcel 4: priority=5, deadline=19
+P007 Parcel 7: priority=5, deadline=19
+P049 Parcel 49: priority=5, deadline=19
+P047 Parcel 47: priority=5, deadline=25
+P019 Parcel 19: priority=5, deadline=27
+P020 Parcel 20: priority=4, deadline=4
+P013 Parcel 13: priority=4, deadline=5
+P034 Parcel 34: priority=4, deadline=5
+P046 Parcel 46: priority=4, deadline=7
+P060 Parcel 60: priority=4, deadline=7
+P018 Parcel 18: priority=4, deadline=8
+P050 Parcel 50: priority=4, deadline=9
+P003 Parcel 3: priority=4, deadline=10
+
+PHASE 2 - 0/1 KNAPSACK
+Capacity: 25 kg | Selected: P004, P034, P060, P005, P042, P033, P011, P015, P006, P037, P053
+Weight: 25 kg | Total value: 1274
+
+PHASE 3A - DIJKSTRA SHORTEST PATHS FROM DEPOT
+L1 : Depot -> L1 | 1 km
+L2 : Depot -> L7 -> L48 -> L2 | 3 km
+L3 : Depot -> L41 -> L3 | 4 km
+L4 : Depot -> L7 -> L4 | 2 km
+L5 : Depot -> L8 -> L5 | 4 km
+L6 : Depot -> L14 -> L6 | 3 km
+L7 : Depot -> L7 | 1 km
+
+PHASE 3B - NEAREST NEIGHBOR TSP APPROXIMATION
+Route: Depot -> L1 -> L11 -> L34 -> L10 -> L6 -> L14 -> L15 -> L16 -> L13 -> L46 -> L39 -> L49 -> L29 -> L24 -> L47 -> L31 -> L32 -> L28 -> L2 -> L48 -> L45 -> L38 -> L37 -> L23 -> L25 -> L56 -> L59 -> L41 -> L3 -> L4 -> L26 -> L19 -> L33 -> L18 -> L44 -> L17 -> L57 -> L54 -> L35 -> L55 -> L8 -> L5 -> L40 -> L58 -> L30 -> L12 -> L20 -> L53 -> L27 -> L52 -> L42 -> L22 -> L21 -> L36 -> L43 -> L9 -> L7 -> L51 -> L50 -> L60 -> Depot
+Total tour distance: 204 km
+
+Planner completed successfully.
