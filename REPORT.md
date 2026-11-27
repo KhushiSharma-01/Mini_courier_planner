@@ -1,8 +1,6 @@
 # K.R. Mangalam University - Capstone Assignment Report
 ## Mini-Courier Planner
 **Course:** Design & Analysis of Algorithms (ETCCDA302)  
-**Student:** ____________________  **Roll No.:** __________  
-**Faculty:** Dr. Shweta Agarwal
 
 ## 1. Introduction and problem
 The project models a courier depot receiving parcels with priorities, deadlines, weights and values. The vehicle has limited capacity. The system prioritizes parcels, selects a feasible valuable set, calculates shortest paths and generates an approximate delivery tour.
